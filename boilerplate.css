@@ -49,7 +49,7 @@ body, button, input, select, textarea {
 	font-family: sans-serif;
 	color: #222;
 	overflow: hidden;
-	height: 100%;
+	height: 95%;
 	width: 100%;
 	background: url(imgs/background3.png) no-repeat center center fixed;
 	-webkit-background-size: cover;
@@ -73,10 +73,7 @@ body, button, input, select, textarea {
    Links
    ========================================================================== */
 
-a { color: #00e; }
-a:visited { color: #551a8b; }
-a:hover { color: #06e; }
-a:focus { outline: thin dotted; }
+
 
 /* Improve readability when focused and hovered in all browsers: h5bp.com/h */
 a:hover, a:active { outline: 0; }
@@ -301,6 +298,7 @@ td { vertical-align: top; }
 .tablets .seccaoInicio .itemSubMenu {
 	float: left;
 	margin-left: 5%;
+	z-index:1000;
 }
 .tablets #menuPrincipal .itemMenu {
 	float: left;
@@ -318,8 +316,9 @@ td { vertical-align: top; }
 	height: 35%;
 	width: 20%;
 	top: 50px;
-	left:200px;
+	left: 200px;
 	z-index: 100;
-	background-color: #39C;
+	/* [disabled]background-color: #39C; */
 	display: none;
+	color: #FFF;
 }

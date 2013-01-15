@@ -118,9 +118,12 @@ a:active {
 #menuPrincipal {
 	height: 5%;
 	width: 100%;
-	background-color: #00F;
-	margin-top:0%;
-	margin-bottom:-2.5%;
+	color: #FFF;
+	margin-top: 0%;
+	margin-left: 2.5%;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	background-color: rgba(0, 0, 0, 0.2);
 }
 
  #Banner {
@@ -296,11 +299,4 @@ position:absolute;
 	left: 10%;
 	bottom: 5%;
 }
-}
- #menuPrincipal {
-	background-color: #636;
-	width: 100%;
-	margin-left: 2.5%;
-	height: 40px;
-	padding-top: 5px;
 }

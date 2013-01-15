@@ -11,6 +11,20 @@
 <title>Rocks na Serra</title>
 <link href="boilerplate.css" rel="stylesheet" type="text/css">
 <link href="estilo.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+body,td,th {
+	font-family: "Courier New", Courier, monospace;
+	color: #FFF;
+	font-size: 14px;
+}
+body {
+	background-repeat: repeat;
+	background-color: #000;
+}
+a:link {
+	color: #FFF;
+}
+</style>
 <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
 <script type="text/javascript" src="scripts/main.js"></script>
 <!--[if lt IE 9]>
@@ -34,10 +48,10 @@
 <script> // togle n funciona dentro de ficheiro externo...
 $('.itemSubMenuMais').toggle(function() {
    $(".subMenuMaisConteudo").css("display","block");
-   alert("1");
+
 }, function() {
    $(".subMenuMaisConteudo").css("display","none");
-      alert("2");
+
 });
 </script>
 
@@ -51,10 +65,10 @@ $('.itemSubMenuMais').toggle(function() {
    
 <section class="contentor">       <!--para controlar os efeitos das transições  !-->  
  <section class="seccaoInicio">  
-   <aside id="Banner">Banner</aside>
+   <aside id="Banner"><img name="banner" src="imgs/banner.png" width="100%" height="100%" alt="Rock na Serra"></aside>
    <aside class="destaque1">Destaque1</aside>   
    <aside class="destaque2">Destaque2</aside>  
-   <aside class="shout">shout</aside>   
+   <aside class="shout"><img name="banner" src="imgs/shout.png"  alt="Shout!"></aside>   
  </section> 
    
  <section class="seccaoShout">
