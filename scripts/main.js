@@ -21,6 +21,7 @@ function carregar(event) {
   if (event.target.id == 2) {  
   $('.contentor').animate({'margin-left': '-100%'}, 900);
  }
+   
    if (event.target.id == 3) {  
   $('.contentor').animate({'margin-left': '-200%'}, 900);
  }    
