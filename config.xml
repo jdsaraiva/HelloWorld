@@ -4,15 +4,15 @@
 	id		= "com.alunny.amazing"
 	version 	= "1.0.0">
 
-	<name>Sera que funciona</name>
+	<name>Rock na Serra</name>
 
 	<description>
-		Sera que funciona
+		Um festival à altura
 	</description>
 
-	<author href="http://alunny.github.com"
-		email="andrew.lunny@nitobi.com">
-		Andrew Lunny
+	<author href="http://jdsaraiva.github.com"
+		email="joao@dessaindesign.com">
+		João Dessain Sraiva.
 	</author>
 
 	<gap:platforms>
