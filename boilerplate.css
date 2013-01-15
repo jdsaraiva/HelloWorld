@@ -15,7 +15,18 @@
  *
  * ==|== normalize ==========================================================
  */
-
+body,td,th {
+	font-family: "Courier New", Courier, monospace;
+	color: #FFF;
+	font-size: 14px;
+}
+body {
+	background-repeat: repeat;
+	background-color: #000;
+}
+a:link {
+	color: #FFF;
+}
 
 /* =============================================================================
    HTML5 display definitions
@@ -377,4 +388,13 @@ td { vertical-align: top; }
 	padding-left: 15px;
 	font-size: 16px;
 	padding-right: 8px;
+}
+
+#barraMenu {
+	background-color: #F00;
+	height: 4px;
+	width: 65px;
+	position: absolute;
+	left: 18px;
+	top: 5%;
 }

@@ -17,13 +17,16 @@ function updateOrientation(){
 function carregar(event) {
  if (event.target.id == 1) {   
   $('.contentor').animate({'margin-left': '0%'}, 900);  
+  $("#barraMenu").animate({"left":"19"}, 900);
  }
   if (event.target.id == 2) {  
   $('.contentor').animate({'margin-left': '-100%'}, 900);
+  $("#barraMenu").animate({"left":"110"}, 900);
  }
    
    if (event.target.id == 3) {  
   $('.contentor').animate({'margin-left': '-200%'}, 900);
+    $("#barraMenu").animate({"left":"210"}, 900);
  }    
   };
 
