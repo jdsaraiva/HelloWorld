@@ -1,63 +1,72 @@
 <!doctype html>
-<html>
-	<head>
-		<meta name="viewport" content="initial-scale=1.0, user-scalable=no, width=device-width" />
-		<title>Training App</title>
-		<link rel="stylesheet" href="assets/css/master.css" type="text/css" media="screen" />
-		
-		<script src="phonegap.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/xui.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/lawnchair/adaptors/LawnchairAdaptorHelpers.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/lawnchair/adaptors/DOMStorageAdaptor.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/lawnchair/adaptors/WebkitSQLiteAdaptor.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/lawnchair/Lawnchair.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/dsl.js" type="text/javascript" charset="utf-8"></script>
-		
-		<script src="assets/js/app.js" type="text/javascript" charset="utf-8"></script>
-		
-	</head>
-	<body>
- 		<div id="title_bar">Phone<strong>Gap</strong> Training App</div>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rocks na Serra</title>
+<link href="boilerplate.css" rel="stylesheet" type="text/css">
+<link href="estilo.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="scripts/main.js"></script>
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="respond.min.js"></script>
+</head>
+<body>
+<div class="gridContainer">
 
-		<div id="welcome" class="view">
-		  <div class="app_button" id="map_button">Show My Location</div>
-  	      <div class="app_button" id="settings_button">Settings</div>
-		</div>
+    <!-- Tablet n detectada !-->
+    <div id="textoContentor"></div>
+    <div id="logo"></div>
+    <div id="ovelhaDsclpa"></div> 
+    <!-- Tablet n detectada !-->  
+<section class="tablets">      
+ <!-- Reinado das tablets  !-->  
+   <nav id="menuPrincipal">
+<div class="itemSubMenuMais"><img src="imgs/mais.png"></div>
+<div class="subMenuMaisConteudo">conteudo extra </div>   
+<script> // togle n funciona dentro de ficheiro externo...
+$('.itemSubMenuMais').toggle(function() {
+   $(".subMenuMaisConteudo").css("display","block");
+   alert("1");
+}, function() {
+   $(".subMenuMaisConteudo").css("display","none");
+      alert("2");
+});
+</script>
 
-		<div id="map" class="view">
-		  <div class="map_image">
-              <img id="static_map" src="assets/img/staticmap.png">
-		  </div>
-		  <p>This is where you are</p>
-		  <div class="app_button" id="welcome_button">Go Back</div>
-		</div>
+    <div class="itemMenu">
+      <a id="1" onClick="carregar(event)">Inicio</a></div>
+    <div class="itemSubMenu">
+      <a id="2" onClick="carregar(event)">Shout!</a></div>
+    <div class="itemSubMenu">
+      <a id="3" onClick="carregar(event)">Mapa</a></div>
+   </nav> 
+   
+<section class="contentor">       <!--para controlar os efeitos das transições  !-->  
+ <section class="seccaoInicio">  
+   <aside id="Banner">Banner</aside>
+   <aside class="destaque1">Destaque1</aside>   
+   <aside class="destaque2">Destaque2</aside>  
+   <aside class="shout">shout</aside>   
+ </section> 
+   
+ <section class="seccaoShout">
+   <aside class="shoutContent">shout</aside>   
+ </section> 
+ 
+  <section class="seccaoCartaz">
+   <aside class="cartazContent">cartaz</aside>   
+ </section> 
+ 
+</section> 
+</section>  <!-- Fim do reinado das tablets !-->  
 
-		<div id="settings" class="view">
-		  <form id="settings_form">
-		    <fieldset>
-		      <legend>Map Type</legend>
-			  <input type="radio" name="map" value="roadmap" checked>Road Map<br/>
-		      <input type="radio" name="map" value="satellite">Satellite<br/>
-		      <input type="radio" name="map" value="terrain">Terrain<br/>
-		      <input type="radio" name="map" value="hybrid">Hybrid<br/>
-		    </fieldset>
-		    <fieldset>
-		      <legend>Zoom Level</legend>
-  		      <input type="radio" name="zoom" value="10">Super Far<br/>
-  		      <input type="radio" name="zoom" value="12">Far<br/>
-  		      <input type="radio" name="zoom" value="15" checked>Normal<br/>
-  		      <input type="radio" name="zoom" value="18">Close<br/>
-  		      <input type="radio" name="zoom" value="20">Super Close<br/>
-  		     </fieldset>
-		      <button id="save_button">Save</button>
-	      </form>
-		</div>
-
-	</body>
+</body>
 </html>
