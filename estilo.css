@@ -165,21 +165,21 @@ a:active {
 }
 
 .seccaoShout{
-	height: 100%;
+	height: 90%;
 	width: 100%;
 	display: block;
 	position: absolute;
-	top: -3%;
+	top: -3.5%;
 	left: 100%;
 	z-index:-10;
 }
 
 .seccaoMapa{
-	height: 100%;
+	height: 90%;
 	width: 100%;
 	display: block;
 	position: absolute;
-	top: -3%;
+	top: -3.5%;
 	left: 200%;
 	z-index:-10;
 }
