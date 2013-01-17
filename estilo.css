@@ -155,7 +155,7 @@ a:active {
 }
 
 .seccaoInicio.portrait .shout {
-	height: 20%;
+	height: 25%;
 	background-color: #F00;
 	clear: both;
 	width: 95%;
@@ -169,7 +169,7 @@ a:active {
 	width: 100%;
 	display: block;
 	position: absolute;
-	top: -1%;
+	top: -3%;
 	left: 100%;
 	z-index:-10;
 }
@@ -179,7 +179,7 @@ a:active {
 	width: 100%;
 	display: block;
 	position: absolute;
-	top: -1%;
+	top: -3%;
 	left: 200%;
 	z-index:-10;
 }
