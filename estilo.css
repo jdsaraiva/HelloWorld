@@ -174,7 +174,7 @@ a:active {
 	z-index:-10;
 }
 
-.seccaoCartaz{
+.seccaoMapa{
 	height: 100%;
 	width: 100%;
 	display: block;
@@ -249,7 +249,7 @@ position:absolute;
 }
 
  /* Cartaz *******/
-.seccaoCartaz .cartazContent { 
+.seccaoMapa .mapaContent { 
 		height: 87.5%;
 	background-color: #F00;
 	width: 95%;
