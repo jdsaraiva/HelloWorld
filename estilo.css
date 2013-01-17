@@ -188,6 +188,22 @@ a:active {
 position:absolute;	
 }
 
+.itemMenu.landscape .barraMenu {
+	background-color: #F00;
+	height: 4px;
+	width: 65px;
+	position: absolute;
+	left: 18px;
+	top: 7%;
+}
+.itemMenu.portrait .barraMenu {
+	background-color: #F00;
+	height: 4px;
+	width: 65px;
+	position: absolute;
+	left: 18px;
+	top: 5%;
+}
  /* Posição horizontal */
 
  /* Inicio *******/
