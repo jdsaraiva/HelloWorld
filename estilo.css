@@ -194,7 +194,7 @@ position:absolute;
 	width: 65px;
 	position: absolute;
 	left: 18px;
-	top: 12%;
+	top: 10%;
 }
 .itemMenu.portrait .barraMenu {
 	background-color: #F00;
@@ -219,7 +219,7 @@ position:absolute;
 }
 
 .seccaoInicio.landscape .destaque1 {
-    top: 40%;
+    top: 38%;
 	width: 30%;
 	height: 23%;
 	background-color: #0F6;
