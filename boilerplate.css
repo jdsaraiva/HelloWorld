@@ -327,12 +327,12 @@ td { vertical-align: top; }
 	height: 35%;
 	width: 40%;
 	top: 50px;
-	left: 410px;
+	left: 390px;
 	z-index: 100;
 	/* [disabled]background-color: #39C; */
 	display: none;
 	color: #FFF;
-	text-align:right;
+	text-align: right;
 }
 .tablets .contentor .separadorInicio {
 	position: relative;
@@ -344,10 +344,8 @@ td { vertical-align: top; }
 	font-size: 16px;
 	margin-left: 86%;
 	color: #FFF;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom:10px;
+	padding-left: 5px;
+	padding-right: 5px;
 }
 
 .tablets .contentor .separadorShoutInicio{
@@ -360,10 +358,7 @@ td { vertical-align: top; }
 	font-size: 14px;
 	margin-left: 100%;
 	color: #FFF;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom:10px;
+	padding-left: 20px;
 	font-size: 16px;
 }
 
@@ -377,11 +372,9 @@ td { vertical-align: top; }
 	font-size: 14px;
 	margin-left: 189%;
 	color: #FFF;
-	font-size: 16px;
 	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom:10px;
+	font-size: 16px;
+	padding-right: 8px;
 }
 .tablets .contentor .separadorMapa{
 	position: relative;
@@ -393,9 +386,7 @@ td { vertical-align: top; }
 	font-size: 14px;
 	margin-left: 201%;
 	color: #FFF;
+	padding-left: 15px;
 	font-size: 16px;
-	padding-left: 10px;
-	padding-right: 10px;
-	padding-top: 10px;
-	padding-bottom:10px;
+	padding-right: 8px;
 }
