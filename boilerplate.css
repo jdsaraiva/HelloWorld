@@ -327,7 +327,7 @@ td { vertical-align: top; }
 	height: 35%;
 	width: 40%;
 	top: 50px;
-	left: 390px;
+	left: 350px;
 	z-index: 100;
 	/* [disabled]background-color: #39C; */
 	display: none;
@@ -336,7 +336,8 @@ td { vertical-align: top; }
 }
 .tablets .contentor .separadorInicio {
 	position: relative;
-	top: 20%;
+	top: 18%;
+	padding-top:2%;
 	width: 95px;
 	height: 20px;
 	background-color: #000;
