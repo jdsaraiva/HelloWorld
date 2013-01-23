@@ -8,9 +8,14 @@ function setOrientationListener(){
 
 function updateOrientation(){	
 	if($('body').width() < 1024){  /*Landscape  funçao remove e add só apanhar a partir da classe pai*/
-		$('.seccaoInicio,.seccaoShout,.itemMenu').removeClass('landscape').addClass('portrait');
+		$('.seccaoInicio,.seccaoShout,.itemMenu').removeClass('landscape').addClass('portrait');   // Portrait
+		$("#destaque1").attr("src","imgs/destaque1.png");
+		$("#mapa").attr("src","imgs/mapa.png");
 	}else{
-		$('.seccaoInicio,.seccaoShout,.itemMenu').removeClass('portrait').addClass('landscape');			
+		$('.seccaoInicio,.seccaoShout,.itemMenu').removeClass('portrait').addClass('landscape');  // Landscape	
+		$("#destaque1").attr("src","imgs/destaque1Landscape.png");
+		$("#mapa").attr("src","imgs/mapaLandscape.png");
+
 	}
 }
 

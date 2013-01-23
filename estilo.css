@@ -142,7 +142,6 @@ a:active {
 	margin-left: 2.5%;
 	margin-top: 2.5%;
 	width: 45%;
-	background-color: #0F6;
 	margin-bottom: 2.5%;
 }
 .seccaoInicio.portrait .destaque2 {
@@ -151,7 +150,6 @@ a:active {
 	margin-right: 2.5%;
 	margin-top: 2.5%;
 	width: 45%;
-	background-color: #F93;
 	margin-bottom: 2.5%;
 }
 
@@ -220,8 +218,7 @@ position:absolute;
 .seccaoInicio.landscape .destaque1 {
     top: 30%;
 	width: 30%;
-	height: 23%;
-	background-color: #0F6;
+	height: 13%;
 	right: 2.5%;
 	position:absolute;
   
@@ -230,8 +227,7 @@ position:absolute;
 .seccaoInicio.landscape .destaque2 {
 	margin-top: 29%;
 	width: 30%;
-	height: 23%;
-	background-color: #930;
+	height: 13%;
 	right: 2.5%;
 	position:absolute;
 }
