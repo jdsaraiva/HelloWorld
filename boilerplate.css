@@ -352,6 +352,7 @@ td { vertical-align: top; }
 .tablets .contentor .separadorShoutInicio{
 	position: relative;
 	top: 18%;
+		padding-top:2%;
 	width: 65px;
 	height: 20px;
 	background-color: #000;
@@ -365,6 +366,7 @@ td { vertical-align: top; }
 
 .tablets .contentor .separadorShoutMapa{
 	position: relative;
+		padding-top:2%;
 	top: 16%;
 	width: 50px;
 	height: 20px;
@@ -379,6 +381,7 @@ td { vertical-align: top; }
 }
 .tablets .contentor .separadorMapa{
 	position: relative;
+		padding-top:2%;
 	top: 14%;
 	width: 55px;
 	height: 20px;
