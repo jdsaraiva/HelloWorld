@@ -182,7 +182,7 @@ a:active {
 	position: absolute;
 	top: -3.5%;
 	left: 200%;
-	z-index:10000;
+	z-index:100000;
 }
 
 .contentor{
@@ -258,7 +258,7 @@ position:absolute;
 	position: absolute;
 	margin-left: 2.5%;
 	top: 8%;
-	z-index:1000;
+	z-index:100000;
 	/* [disabled]display: none; */
 }
 
