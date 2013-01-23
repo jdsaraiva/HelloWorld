@@ -26,7 +26,7 @@
       function initialize() {
         var mapOptions = {
           center: new google.maps.LatLng(40.277672, -7.508388),
-          zoom: 15,
+          zoom: 25,
           mapTypeId: google.maps.MapTypeId.ROADMAP
         };
         var map = new google.maps.Map(document.getElementById("map_canvas"),
@@ -51,7 +51,7 @@
  <!-- Reinado das tablets  !-->  
    <nav id="menuPrincipal">
 <div class="itemSubMenuMais"><img src="imgs/mais.png"></div>
-<div class="subMenuMaisConteudo">conteudo extra </div>   
+<div class="subMenuMaisConteudo">Informações úteis<br>Área pessoal<br>Bilheteira</div>   
 <script> // togle n funciona dentro de ficheiro externo...
 $('.itemSubMenuMais').toggle(function() {
    $(".subMenuMaisConteudo").css("display","block");
@@ -83,7 +83,7 @@ $('.itemSubMenuMais').toggle(function() {
  </section> 
    
  <section class="seccaoShout">
-   <aside class="shoutContent">shout</aside>   
+   <aside class="shoutContent"></aside>   
  </section> 
  
   <section class="seccaoMapa">
