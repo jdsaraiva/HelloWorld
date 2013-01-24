@@ -1,5 +1,13 @@
 $(document).ready(function(){
 setOrientationListener();
+$('.QRIcon').bind('click', function() {
+    $(".QRContent").css("display","inline");
+});
+ $('.QRContent').bind('click', function() {
+    
+	 $('.QRContent').parent().css("display","none");
+});
+
 });
 
 function setOrientationListener(){	
@@ -18,6 +26,7 @@ function updateOrientation(){
 
 	}
 }
+
 
 function carregar(event) {
  if (event.target.id == 1) {   

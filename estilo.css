@@ -274,10 +274,15 @@ z-index:100;
 	color: #F00;
 }
 
- 
-#tablets {
+ .contentor{
+	display:none; }
+ .seccaoInicio{
 	display:none; }
 
+#tablets {
+	display:none; }
+#menuPrincipal{
+	display:none; }
 #textoContentor {
 	margin-top: 10%;
 	clear: both;
