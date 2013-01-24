@@ -1,5 +1,8 @@
 $(document).ready(function(){
 setOrientationListener();
+tablets.draggable('disable');
+body.draggable('disable');
+contentor.draggable('disable');
 });
 
 function setOrientationListener(){	
