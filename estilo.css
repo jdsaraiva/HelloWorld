@@ -165,25 +165,27 @@ a:active {
 .seccaoShout{
 	height: 90%;
 	width: 100%;
-	display: block;
+	display:none;
 	position: absolute;
 	top: -3.5%;
-	left: 100%;
+	left: 0%;
 	z-index:-10;
+	
 }
 
 .seccaoMapa{
 	height: 90%;
 	width: 100%;
-	display: block;
+	display:none;
 	position: absolute;
 	top: -3.5%;
-	left: 200%;
+		left: 0%;
 	z-index:100000;
 }
 
 .contentor{
 position:absolute;	
+z-index:100;
 }
 
 .itemMenu.landscape .barraMenu {
