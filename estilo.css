@@ -176,11 +176,10 @@ a:active {
 .seccaoMapa{
 	height: 90%;
 	width: 100%;
-	display:none;
 	position: absolute;
 	top: -3.5%;
-		left: 0%;
-	z-index:100000;
+    left: 0%;
+display:none;
 }
 
 .contentor{
@@ -255,7 +254,6 @@ z-index:100;
 	margin-left: 2.5%;
 	top: 8%;
 	z-index:100000;
-	/* [disabled]display: none; */
 }
 
 }

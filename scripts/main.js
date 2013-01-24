@@ -1,13 +1,17 @@
+var map;
 $(document).ready(function(){
 setOrientationListener();
-$('.QRIcon').bind('click', function() {
-    $(".QRContent").css("display","inline"); 
-});
- $('.QRContent').bind('click', function() {
-    
-	 $('.QRContent').css("display","none");
+
+$('.QRIcon').toggle(function() {
+   $(".QRContent").css("display","block");
+
+}, function() {
+   $(".QRContent").css("display","none");
+
 });
 
+
+			
 });
 
 function setOrientationListener(){	
@@ -47,6 +51,14 @@ function carregar(event) {
 	  $(".seccaoInicio").fadeOut(100); 
       $(".seccaoShout").fadeOut(100);
 	  $(".seccaoMapa").fadeIn(100);
+	
+        var mapOptions = {
+          center: new google.maps.LatLng(40.277672, -7.508388),
+          zoom: 20,
+          mapTypeId: google.maps.MapTypeId.HYBRID
+        };
+        var map = new google.maps.Map(document.getElementById("map_canvas"),
+            mapOptions);
  }    
   };
 
