@@ -1,11 +1,11 @@
 $(document).ready(function(){
 setOrientationListener();
 $('.QRIcon').bind('click', function() {
-    $(".QRContent").css("display","inline");
+    $(".QRContent").css("display","inline"); 
 });
  $('.QRContent').bind('click', function() {
     
-	 $('.QRContent').parent().css("display","none");
+	 $('.QRContent').css("display","none");
 });
 
 });
