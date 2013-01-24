@@ -375,7 +375,7 @@ td { vertical-align: top; }
 	font-size: 16px;
 	padding-right: 8px;
 		z-index: 100000000;
-	left:93%;
+	left:87%;
 }
 .tablets .contentor .separadorMapa{
 	position: absolute;
@@ -401,7 +401,7 @@ td { vertical-align: top; }
 	color: white;
 	padding: 5px;
 	border: thin solid #FFF;
-	z-index:100000000000;
+	z-index:10000;
 }
 
 
@@ -411,5 +411,5 @@ td { vertical-align: top; }
 	top:90%;
 	width:34px;
 	height:36px;
-	z-index:100000000;
+	z-index:10000;
 }
